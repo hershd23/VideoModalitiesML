@@ -29,7 +29,7 @@ These pipelines have been tested on/ used to analyse the First Impressions V2 da
 ### Visual
 
 #### Preprocessing
-Use OpenCV or similar libraries to generate relevant frames from the video beforehand (Example scripts will be released soom) . The will be the inputs to the following models
+Use OpenCV or similar libraries to generate relevant frames from the video beforehand (Example scripts will be released soon) . The will be the inputs to the following models
 
 #### Video_2d_cnn.ipynb
 * Input :- Only one representative frame will be the input here, generally used as baselines in video models.
@@ -49,3 +49,6 @@ As these models/pipelines have been trained on the First Impressions V2 dataset,
 The loss used in the Deep Learning models is generally L1 or L2 (MSE) loss. Since we have used pytorch, adapting the code to a different loss function should be as easy as changing the function call.
 
 The metric used is 1-MAE (Mean absolute error), used here http://chalearnlap.cvc.uab.es/dataset/24/results/49/
+
+## On issues
+Feel free to post issues if you find a bug and/or to suggest changes to the pipelines or models.
